@@ -10,11 +10,13 @@ public class Lab3 {
         List<String> vowelWords = new ArrayList<>();
         String vowels = "aeiouyAEIOUYаеєиіїоуюяАЕЄИІЇОУЮЯ";
 
-        // Фільтрація слів, що починаються з голосних літер
+        // Фільтрація слів
         for (String word : words) {
             if (!word.isEmpty()) {
                 char firstChar = word.charAt(0);
-                if (vowels.indexOf(firstChar) != -1) {
+                
+                // КРИТИЧНЕ ВИПРАВЛЕННЯ: перевіряємо, чи це дійсно ЛІТЕРА і чи вона є голосною
+                if (Character.isLetter(firstChar) && vowels.indexOf(firstChar) != -1) {
                     vowelWords.add(word);
                 }
             }
@@ -28,6 +30,8 @@ public class Lab3 {
         });
 
         System.out.println("Filtered and sorted words:");
-        for (String w : vowelWords) System.out.println("- " + w);
+        for (String w : vowelWords) {
+            System.out.println("- " + w);
+        }
     }
 }
