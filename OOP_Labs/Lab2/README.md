@@ -59,4 +59,4 @@
 ## 📺 Відео-захист лабораторної роботи
 Клацніть на зображення нижче, щоб переглянути відео-захист цієї роботи:
 
-[![Відео-захист](https://img.youtube.com/vi/SwuZTUp_XjY/maxresdefault.jpg)](https://www.youtube.com/watch?v=SwuZTUp_XjY)
+[![Відео-захист](https://img.youtube.com/vi/SwuZTUp_XjY/hqdefault.jpg)](https://www.youtube.com/watch?v=SwuZTUp_XjY)
